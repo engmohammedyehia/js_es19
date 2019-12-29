@@ -1,0 +1,1 @@
+console.log(new Array(5).fill(4));
