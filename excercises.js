@@ -71,3 +71,19 @@ for (let i = strToRotatr.length - 1; i >= 0; i--) {
 }
 
 console.log(resultRotatedString);
+
+// const resultconvert = str =>{
+// 	let b = '';
+// 	for (let i = 0; i < str.length; i++){
+// 		let c = str.length -1 - i;
+// 		b+=str[c];
+// 	}
+// 	return b;
+// }
+// console.log(resultconvert('ahmed ali saeed'));
+
+// // DRY Don't repeat yourself (Duplicate code)
+// // Don't Re-invent the wheel 
+// console.log('ahmed ali saeed'.split('').join('|'));
+
+
