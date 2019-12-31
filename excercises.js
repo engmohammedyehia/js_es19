@@ -63,3 +63,11 @@ const testobj = (obj1)=>{
 }
 
 console.log(testobj(names));
+
+const strToRotatr = 'w3resource';
+let resultRotatedString = '';
+for (let i = strToRotatr.length - 1; i >= 0; i--) {
+    resultRotatedString += strToRotatr[i];
+}
+
+console.log(resultRotatedString);
