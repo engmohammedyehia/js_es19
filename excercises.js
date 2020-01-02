@@ -86,4 +86,20 @@ console.log(resultRotatedString);
 // // Don't Re-invent the wheel 
 // console.log('ahmed ali saeed'.split('').join('|'));
 
+//const dy = (dy,ay) => dy.startsWith(ay) ? dy : ay.concat(dy)
 
+//console.log(dy('ahmed','ah'));
+
+//const a = (b,c) => b.substring(0, c) + b.substring(c+1);
+
+//console.log(a('ahmed', 2));
+
+//const isMultipleOf = (num, divisor) => num % divisor === 0
+// const a = (b,c) => Number.isInteger(b / c) ? true : false;
+
+//console.log(isMultipleOf(21,7));
+
+// 
+// const removefun = (tx, removetx, lenghtr) => tx.indexOf(removetx) === lengthtr ? tx.substring(0, lenghtr);
+
+// console.log(removefun('ahmed','ed','4'));
